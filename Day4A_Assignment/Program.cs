@@ -10,8 +10,11 @@ namespace Day4A_Assignment
     {
         static void Main(string[] args)
         {
-            DemoArrayList demoArrayList = new DemoArrayList();
-            demoArrayList.MethodArrayList();
+            //DemoArrayList demoArrayList = new DemoArrayList();
+            //demoArrayList.MethodArrayList();
+
+            DemoDictionary demoDictionary = new DemoDictionary();
+            demoDictionary.MethodDictionary();
             Console.ReadLine();
         }
     }
